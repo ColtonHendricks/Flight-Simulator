@@ -7,7 +7,7 @@ public class PlaneController : MonoBehaviour
 {
 	public float throttleIncrement = 0.1f;
 	public float maxThrust = 220f;
-	public float responsiveness = 10f;
+	public float responsiveness = 15f;
 	public float lift = 135f;
 
 	private float throttle;

@@ -512,9 +512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throttleIncrement: 0.1
-  maxThrust: 220
-  responsiveness: 10
-  lift: 135
+  maxThrust: 430
+  responsiveness: 15
+  lift: 250
   hud: {fileID: 878371416}
   propellor: {fileID: 281283147}
 --- !u!65 &990449265
@@ -546,7 +546,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990449261}
   serializedVersion: 4
-  m_Mass: 400
+  m_Mass: 975
   m_Drag: 1
   m_AngularDrag: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
