@@ -512,7 +512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throttleIncrement: 0.1
-  maxThrust: 200
+  maxThrust: 220
   responsiveness: 10
   lift: 135
   hud: {fileID: 878371416}
