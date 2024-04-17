@@ -319,7 +319,7 @@ MonoBehaviour:
   povs:
   - {fileID: 1382877903}
   - {fileID: 704909340}
-  speed: 0
+  speed: 100
 --- !u!4 &459293658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5d47ce4486a98d49aad6a5f2e619c42, type: 3}
