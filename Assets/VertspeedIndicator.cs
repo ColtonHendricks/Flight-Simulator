@@ -24,8 +24,8 @@ public class VertspeedIndicator : MonoBehaviour
 
     private void Awake() {
 
-        vertspeedMax = 20000f;
-        vertspeedMin = -20000f;
+        vertspeedMax = 2000f;
+        vertspeedMin = -2000f;
 
         velocity = 0f;
         position = 0f;
@@ -41,7 +41,7 @@ public class VertspeedIndicator : MonoBehaviour
 
         // I dont know why vertspeed has to be negative here but it is reversed if it is not
         vertspeed = -(velocity - lastVelocity) / (Time.fixedDeltaTime);
-        lastVelocity = (position - lastPosition) / (Time.fixedDeltaTime);
+        lastVelocity = (position - lastPosition) / (Time.fixedDeltaTime*60);
         
         if(vertspeed > vertspeedMax) vertspeed = vertspeedMax;
         if(vertspeed < vertspeedMin) vertspeed = vertspeedMin;
