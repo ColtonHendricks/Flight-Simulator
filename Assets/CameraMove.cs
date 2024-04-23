@@ -22,4 +22,4 @@ public class CameraMove : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * speed);
         transform.forward = povs[index].forward;
     }
-}
+} 
