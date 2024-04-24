@@ -10,10 +10,12 @@ public class CameraMove : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.V) && index == 0) index = 1;
+        if(Input.GetKeyDown(KeyCode.V) && index == 0){ 
+            index = 1;
+        }
         else if(Input.GetKeyDown(KeyCode.V) && index == 1) index = 0;
 
-        target = povs[index].position;
+        target = povs[index].position;      
     }
 
     // Update is called once per frame
@@ -21,5 +23,6 @@ public class CameraMove : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * speed);
         transform.forward = povs[index].forward;
+
     }
 } 
