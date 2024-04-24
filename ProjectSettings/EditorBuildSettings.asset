@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FlightSim 2.0 - Terrain.unity
+    guid: f46533276bbb7c147b08006b42a635f3
   m_configObjects: {}
